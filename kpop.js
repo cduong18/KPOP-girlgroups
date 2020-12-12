@@ -30,7 +30,7 @@ function makepie(){
                 }
             }
         },subtitle: {
-            text: 'Source: <a href="https://kworb.net/youtube/topvideos_korean.html">KWORB</a>'
+            text: 'Source: <a href="https://kworb.net/youtube/topvideos_korean.html">KWORB<br>Last Updated: December 8, 2020</a>'
         },
         series: [{
             name: 'Name',
