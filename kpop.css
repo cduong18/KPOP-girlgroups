@@ -1,0 +1,34 @@
+@font-face {
+    font-family: QuiteMagical; src: url('QuiteMagicalRegular-8VA2.ttf');
+
+}
+
+html, body {
+    height: 100%;
+    background-color: #DBF9FC;
+    /*background-image: linear-gradient(to bottom right, #9F74DB, #FFD4DF);*/
+    /*background-image: linear-gradient(to bottom right, #77D1D8,#C9AEE6, #FFD4DF);*/
+    background-image: linear-gradient(to bottom right, #77D1D8,#FFD4DF);
+    color: white;
+    font-family: QuiteMagical, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+#title {
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #B690DF;
+    padding: 0px;
+}
+
+#subtitle {
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #B690DF;
+    padding: 0px;
+}
+
+.text {
+    font-size: 20px;
+}

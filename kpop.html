@@ -6,23 +6,23 @@
         <title>KPOP Girl Group Rankings</title>
         <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="kpop.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat%7CPaytone+One&display=swap" rel="stylesheet" />
         <meta charset="UTF-8">
     </head>
     <body onload='draw()'>
         <div>
         <header>
-           <h1>KPOP Girl Group Rankings</h1>
+            <h1 id="title">KPOP Girl Group Rankings</h1>
+            <h4 id="subtitle">by Alex Nguyen & Carolyn Duong</h4>
         </header>
         </div>
-        <hr>
-        <div style="width: 100%;">
-            <div id="barchart" style="width:50%; height:50%; float: left"></div>
-            <div id="piechart" style="width:50%; height:50%; margin-left: 50%"></div>
+        <div>
+            <p class="text"></p>
         </div>
-        <hr>
+        <div style="width: 100%;">
+            <div id="barchart" style="width:45%; height:50%; float: left; margin-left: 2.5%"></div>
+            <div id="piechart" style="width:45%; height:50%; margin-left: 52.5%"></div>
+        </div>
         <div id="bubblechart"></div>
-        <hr>
         <div id="table"></div>
         <script src="kpop.js"></script>
         <script src="https://code.highcharts.com/highcharts.src.js"></script>

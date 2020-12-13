@@ -1,3 +1,68 @@
+// BarChart
+document.addEventListener('DOMContentLoaded', function () {
+    const chart2 = Highcharts.chart('barchart', {
+      chart: {
+          type: 'column'
+      },
+      title: {
+        text: 'Instagram Following of Popular KPOP Girl Groups'
+        },
+      tooltip: {
+          pointFormat: '<b>{data.name}</b><br>Instagram Followers: {point.y}'
+      },
+      subtitle: {
+        text: 'Last Updated: December 12, 2020'
+      },
+      xAxis: {
+          type: 'category',
+        labels: {
+            rotation: -45,
+            style: {
+              fontSize: '13px'
+            }},
+      },
+      yAxis: {
+          min: 0,
+          title: {
+              text: '# Instagram Followers'
+          }
+      },
+      legend: {
+          reversed: true
+      },
+      plotOptions: {
+        column: {
+          pointPadding: 0.2,
+          borderWidth: 0
+        }
+      },
+      series: [{
+          name: 'KPOP Girl Group',
+          data: [
+              ['Blackpink', 32600000],
+              ['Twice', 15700000],
+              ['Red Velvet', 9400000],
+              ['ITZY', 7300000],
+              ['MAMAMOO', 5600000],
+              ['(G)I-DLE', 5600000],
+              ['MOMOLAND', 2200000],
+              ['IZ*ONE', 2100000],
+              ['EVERGLOW', 1900000],
+              ['NiziU', 1700000],
+              ['EXID', 1100000],
+              ['Apink', 1000000],
+              ['Girls\' Generation', 1000000],
+              ['f(x)', 401000],
+              ['2NE1', 335000],
+              ['SISTAR', 185000],
+              ['AOA', 157000]   
+          ]
+      }]
+    });
+    });
+
+
+// Pie Chart
 function draw(){
     makepie();
 }
