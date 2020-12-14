@@ -725,3 +725,24 @@ function makebubble(){
     
 }
 
+
+const select = id => document.getElementById(id);
+function updatestats(mem,songlist,photosrc) {
+
+    document.getElementById("members").innerHTML = "";
+    document.getElementById("topsongs").innerHTML = "";
+    select('phot').src=photosrc;
+
+    for(i=0;i<(mem.length);i++){
+        item = document.createElement('li');
+        item.innerHTML = mem[i];
+        select('members').appendChild(item);
+    }
+
+    for(i=0;i<(songlist.length);i++){
+        item = document.createElement('li');
+        item.innerHTML = songlist[i];
+        select('topsongs').appendChild(item);
+    }
+}
+
