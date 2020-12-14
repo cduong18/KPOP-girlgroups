@@ -24,6 +24,37 @@
         </div>
         <div id="bubblechart"></div>
         <div id="table"></div>
+        
+        <hr>
+        
+        <h1 style="text-align: center;"> TOP 3 Girl Groups</h1>
+        <div id="logos">
+            <input type="image" src="blackpinklogo.jpg" style="width: 350px; height: 180px;" onclick="updatestats(['Jennie','Lisa','Rose','Jisoo'],['DDU-DU DDU-DU','Kill This Love','BOOMBAYAH','As If It\'s Your Last','How You Like That'],'blackpinkphoto.jpg')"/>
+            <input type="image" src="twicelogo.png" onclick="updatestats(['Mina','Nayeon','Sana','Tzuyu','Momo','Jeongyeon','Chaeyoung','Dahyun','Jihyo'],['TT','Likey','What is Love?','Cheer Up','Like Ooh Ahh'],'Twicephoto.png')"/>
+            <input type="image" src="redvelvetlogo.png" style="width: 300px; height: 200px;" onclick="updatestats(['Irene','Joy','Yeri','Wendy','Seulgi'],['Bad Boy','Psycho','Peek-A-Boo','Russian Roulette','Red Flavor'],'redvelvetphoto.jpg')"/>
+        </div>
+
+        <hr>
+        
+        <section id="stats">
+            <section id="memCard">
+                <h3>Members</h3>
+                <ol id="members"></ol>
+            </section>
+            
+            <section id="agecard">
+                <h3>Top Songs</h3>
+                <ol id="topsongs"></ol>
+            </section>
+    
+            <section id="photocard">
+                <h3></h3>
+                <output id="photo"> </output>
+                <img id = 'phot' src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="" style="height: 300px; width: 400px;">
+            </section>	
+        </section>
+        
+        
         <script src="kpop.js"></script>
         <script src="https://code.highcharts.com/highcharts.src.js"></script>
         <script src="https://code.highcharts.com/highcharts-more.js"></script>
