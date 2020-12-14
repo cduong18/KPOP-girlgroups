@@ -76,7 +76,7 @@ function makepie(){
             type: 'pie'
         },
         title: {
-            text: 'Girl Groups '
+            text: 'What People Likey Likey (Views Per Group) '
         },
         tooltip: {
             pointFormat: 'Total Views: <b>{point.y}</b>'
