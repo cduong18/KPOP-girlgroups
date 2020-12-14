@@ -12,12 +12,20 @@
         <div>
         <header>
             <h1 id="title">KPOP Girl Group Rankings</h1>
-            <h4 id="subtitle">by Alex Nguyen & Carolyn Duong</h4>
+            <h3 id="subtitle">by Alex Nguyen & Carolyn Duong</h3>
         </header>
         </div>
         <div>
-            <p class="text"></p>
+            <p class="text">Hello Fellow KPOP Fan! You're on the right page. Ever wondered how different KPOP girl groups compare with one another in terms of social media following and music video views?</p>
+            <p class="text">For our charts about music video views, we got our data from KWORB, a frequently-updated site with music video stats, not just for KPOP, but all different kinds of genres and topics!</p>
+            <p class="text">As for the chart about Instagram following, we looked up that information ourselves! As a disclaimer, some groups were omitted from the Instagram following chart because they do not have official
+                Instagram pages. This is often the case for older groups and groups that have disbanded. Also, Instagram following of official group pages do not reflect the overall popularity of the group because of the statement prior.
+            </p>
+            <p class="text">Another disclaimer: the "other" portion of the "View Per Group" chart consists of 12 KPOP girl groups that made it to the top charts, however accounted for less than 2.5% of the total views in the pie chart. For that reason,
+                we did not show each individual group's portion of the pie chart because it would have been overcrowded. If you are curious as to which groups are in the "other" section, see the bubble chart directly below the pie chart for a full list of KPOP Girl Groups represented in these visualizations.
+            </p>
         </div>
+        <br>
         <div style="width: 100%;">
             <div id="barchart" style="width:45%; height:50%; float: left; margin-left: 2.5%"></div>
             <div id="piechart" style="width:45%; height:50%; margin-left: 52.5%"></div>
@@ -28,8 +36,9 @@
         <hr>
         
         <h1 style="text-align: center; font-size: 3.5em;"> TOP 3 Girl Groups</h1>
-        <div id="logos">
-            <input type="image" src="blackpinklogo.jpg" style="width: 350px; height: 180px;" onclick="updatestats(['Jennie','Lisa','Rose','Jisoo'],['DDU-DU DDU-DU','Kill This Love','BOOMBAYAH','As If It\'s Your Last','How You Like That'],'blackpinkphoto.jpg')"/>
+        <h3 style="text-align: center; font-size: 2em;"> Click on one of the images to see more info about their group !</h3>
+        <div id="logos" style="margin-left: 5%;">
+            <input type="image" src="blackpinklogo.png" style="width: 350px; height: 140px;" onclick="updatestats(['Jennie','Lisa','Rose','Jisoo'],['DDU-DU DDU-DU','Kill This Love','BOOMBAYAH','As If It\'s Your Last','How You Like That'],'blackpinkphoto.jpg')"/>
             <input type="image" src="twicelogo.png" onclick="updatestats(['Mina','Nayeon','Sana','Tzuyu','Momo','Jeongyeon','Chaeyoung','Dahyun','Jihyo'],['TT','Likey','What is Love?','Cheer Up','Like Ooh Ahh'],'Twicephoto.png')"/>
             <input type="image" src="redvelvetlogo.png" style="width: 300px; height: 200px;" onclick="updatestats(['Irene','Joy','Yeri','Wendy','Seulgi'],['Bad Boy','Psycho','Peek-A-Boo','Russian Roulette','Red Flavor'],'redvelvetphoto.jpg')"/>
         </div>
@@ -50,7 +59,7 @@
             <section id="photocard">
                 <h3></h3>
                 <output id="photo"> </output>
-                <img id = 'phot' src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="" style="height: 300px; width: 400px;">
+                <img id = 'phot' src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="" style="height: 250px; width: 400px;">
             </section>	
         </section>
         

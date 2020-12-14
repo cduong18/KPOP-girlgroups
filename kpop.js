@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
           type: 'column'
       },
       title: {
-        text: 'Instagram Following of Popular KPOP Girl Groups'
+        text: 'Instagram Followings of KPOP Girl Groups'
         },
       tooltip: {
           pointFormat: '<b>{data.name}</b><br>Instagram Followers: {point.y}'
@@ -76,7 +76,7 @@ function makepie(){
             type: 'pie'
         },
         title: {
-            text: 'What People Likey Likey (Views Per Group) '
+            text: 'What People Likey Likey (Views Per KPOP Girl Group)'
         },
         tooltip: {
             pointFormat: 'Total Views: <b>{point.y}</b>'
@@ -161,7 +161,10 @@ function makebubble(){
 
         },
         title: {
-            text: 'Girl Group views per video'
+            text: 'Views Per KPOP Girl Group Video'
+        },
+        subtitle: {
+            text: 'Source: <a href="https://kworb.net/youtube/topvideos_korean.html">KWORB<br>Last Updated: December 8, 2020</a>'
         },
         tooltip: {
             useHTML: true,
@@ -194,7 +197,7 @@ function makebubble(){
             }
         },
         series: [{
-            name: 'BlACKPINK',
+            name: 'BLACKPINK',
             data: [{
                 name: 'DDU-DU DDU-DU MV',
                 value: bpv[0],
